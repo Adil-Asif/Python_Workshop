@@ -21,4 +21,14 @@ def triangle(n):
         print('')        
    
 
-triangle(5)
+
+print("1) Right Triangle\n2) Left Triangle\n3) Triangle")
+choice = input("Enter your choice: ")
+n = input("Enter Hieght of Triangle of your choice: ")
+
+if choice == '1':
+    right_triangle(int(n))
+elif choice == '2':
+    left_triangle(int(n))
+elif choice == '3':
+    triangle(int(n))
