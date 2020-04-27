@@ -7,4 +7,4 @@ password = ''
 
 for i in range(0,int(length)):
     password += random.choice(char_set)
-print(password)
+print(f"Your Password is generated: {password}")
