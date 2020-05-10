@@ -32,3 +32,4 @@ elif choice == '2':
     left_triangle(int(n))
 elif choice == '3':
     triangle(int(n))
+input()  
